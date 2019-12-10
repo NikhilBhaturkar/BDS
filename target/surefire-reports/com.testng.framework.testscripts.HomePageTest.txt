@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.testng.framework.testscripts.HomePageTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 51.007 sec <<< FAILURE!
+checkFeatureLink(com.testng.framework.testscripts.HomePageTest)  Time elapsed: 0.502 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: check if NBI Data Collection heading is displayed
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at com.testng.framework.pageobjects.BDSHomePage.verifyFeatureLink(BDSHomePage.java:106)
+	at com.testng.framework.testscripts.HomePageTest.checkFeatureLink(HomePageTest.java:27)
+

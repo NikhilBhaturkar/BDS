@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="BDS Regression suite" verbose="4" >
+  <test name="BDS Regression suite" >
+    <classes>
+      <class name="com.testng.framework.testscripts.HomePageTests">
+      	<methods>
+      	<include name="checkFeatureLink" />
+      	</methods>
+      </class>
+    </classes>
+ </test>
+</suite>
